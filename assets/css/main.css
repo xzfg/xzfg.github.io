@@ -52,7 +52,7 @@ background:transparent;
  * Basic styling
  */
 body {
-  font-family: "ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â½Ã‚Â¯ÃƒÂ©Ã¢â‚¬ÂºÃ¢â‚¬Â¦ÃƒÂ©Ã‚Â»Ã¢â‚¬Ëœ", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   line-height: 1.5;
   font-weight: 300;
@@ -170,9 +170,6 @@ ul, ol, dl, figure,
     color:#fff;
     -webkit-border-radius: 45px;
     border-radius: 45px;
-     -webkit-box-shadow: 0 0 15px #33ccff;   
-    -moz-box-shadow: 0 0 15px #33ccff;   
-     box-shadow: 0 0 15px #33ccff;
 }
 .pagination .x1:visited{
   background-color: rgba(253, 253, 255, 0.51);
@@ -190,9 +187,6 @@ background-color: rgba(253, 253, 255, 0.51);
         -webkit-border-radius: 45px;
     border-radius: 45px;
   text-decoration: none;
-                -webkit-box-shadow: 0 0 15px #fff;   
-    -moz-box-shadow: 0 0 15px #fff;   
-     box-shadow: 0 0 15px #fff;
  }
 
 .sutehome{
@@ -206,13 +200,10 @@ background-color: rgba(253, 253, 255, 0.51);
 }
 
 /**
- * ÃƒÂ¦Ã‚Â Ã¢â‚¬Â¡ÃƒÂ§Ã‚Â­Ã‚Â¾ÃƒÂ©Ã‚Â¡Ã‚Âµ
+ * ÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â­Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â¡Ãƒâ€šÃ‚Âµ
  */
 div.page-tag {
     text-align: center;
-       -webkit-box-shadow: 0 0 15px #fff;   
-    -moz-box-shadow: 0 0 15px #fff;   
-     box-shadow: 0 0 15px #fff;
 }
 .page-tag a {
   text-decoration: none;
@@ -220,7 +211,7 @@ div.page-tag {
   float: left;
   margin: 0 1em 1em 0;
   padding: 5px 10px;
-  border: 1px solid #25a598;
+  border: 1px solid #fff;
   border-radius: 14px;
   box-sizing: border-box;
   font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -228,27 +219,18 @@ div.page-tag {
   font-weight: normal;
   line-height: 1.5;
   opacity : 0.7;
-       -webkit-box-shadow: 0 0 15px #fff;   
-    -moz-box-shadow: 0 0 15px #fff;   
-     box-shadow: 0 0 15px #fff;
 }
 .page-tag a:visited{
     text-decoration: none; 
     color : #fff;
     opacity : 0.7;
-         -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
 }
 .page-tag a:hover,
 .page-tag a:focus {
     text-decoration: none; 
-    color : white;
+    color : #00ff39;
     opacity : 1;
-    border-color: #25a598;
-         -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
+    border-color: #00ff11;
 }
 
 .tags{
@@ -289,10 +271,6 @@ li.article a:hover,li.article a:focus{
   color: #fff;
       box-shadow: 3px 0 #3B95B8 inset;
    background-color: rgba(253, 253, 255, 0.51);
-
-  -webkit-box-shadow: 0 0 10px #333;   
-    -moz-box-shadow: 0 0 10px #333;   
-     box-shadow: 0 0 10px #333;
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
 }
 
@@ -312,7 +290,7 @@ li.article a:hover,li.article a:focus{
 
 
 /**
- * ÃƒÂ¥Ã‚Â½Ã¢â‚¬â„¢ÃƒÂ¦Ã‚Â¡Ã‚Â£ÃƒÂ©Ã‚Â¡Ã‚Âµ
+ * ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚Â¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â¡Ãƒâ€šÃ‚Âµ
  */
 .archive_span{
   font-size: 1em;
@@ -339,9 +317,6 @@ li.article a:hover,li.article a:focus{
   /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   min-height: 50em;
   border-radius: 4px;
-  -webkit-box-shadow: 0 0 15px #333;
-  -moz-box-shadow: 0 0 15px #333;
-  box-shadow: 0 0 15px #333;
 }
 
 @media  (max-width: 992px) {
@@ -355,7 +330,7 @@ li.article a:hover,li.article a:focus{
   overflow: hidden;
 }
 /**
- * ÃƒÂ¦Ã…â€œÃ¢â€šÂ¬ÃƒÂ¨Ã‚Â¿Ã¢â‚¬ËœÃƒÂ¨Ã‚Â®Ã‚Â¿ÃƒÂ¥Ã‚Â®Ã‚Â¢ÃƒÂ¥Ã¢â‚¬â„¢Ã…â€™ÃƒÂ¦Ã…â€œÃ¢â€šÂ¬ÃƒÂ¦Ã¢â‚¬â€œÃ‚Â°ÃƒÂ¨Ã‚Â¯Ã¢â‚¬Å¾ÃƒÂ¨Ã‚Â®Ã‚Âº
+ * ÃƒÆ’Ã‚Â¦Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â¿ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â®Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¥ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ãƒâ€¦Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¦Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Â°ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â®Ãƒâ€šÃ‚Âº
  */
  .recentcome{
    background-color: rgba(253, 253, 255, 0.51);
@@ -381,9 +356,6 @@ li.article a:hover,li.article a:focus{
   padding: 1em 2em;
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
-       -webkit-box-shadow: 0 0 15px #00ffff;   
-    -moz-box-shadow: 0 0 15px #00ffff;   
-     box-shadow: 0 0 15px #00ffff;
 }
 
 .recentuse p{
@@ -408,17 +380,18 @@ text-align: center;
     margin-top : 8px;
     display : inline-block;
       text-decoration: none;
-       -webkit-box-shadow: 0 0 15px #00ffff;   
-    -moz-box-shadow: 0 0 15px #00ffff;   
-     box-shadow: 0 0 15px #00ffff;
+      border-style:solid;
+      border-color:#fff;
+      border-width:1px;
 }
 .recentuse a:hover{
     margin-top : 8px;
     display : inline-block;
       text-decoration: none;
-       -webkit-box-shadow: 0 0 15px #fff;   
-    -moz-box-shadow: 0 0 15px #fff;   
-     box-shadow: 0 0 15px #fff;
+         border-style:solid;
+      border-color:#0f0;
+      color:#06ff06;
+      border-width:1px;
 }
 
 
@@ -429,9 +402,6 @@ text-align: center;
   padding: 1em 2em;
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
-       -webkit-box-shadow: 0 0 15px #ffcc66;   
-    -moz-box-shadow: 0 0 15px #ffcc66;   
-     box-shadow: 0 0 15px #ffcc66;
 }
 .friendlink p{
   color: #fff;
@@ -452,17 +422,18 @@ text-align: center;
   margin-top : 8px;
   display : inline-block;
       text-decoration: none;
-       -webkit-box-shadow: 0 0 15px #ffcc66;   
-    -moz-box-shadow: 0 0 15px #ffcc66;   
-     box-shadow: 0 0 15px #ffcc66;
+     border-style:solid;
+      border-color:#fff;
+      border-width:1px;
 }
 .friendlink a:hover{
     margin-top : 8px;
     display : inline-block;
       text-decoration: none;
-       -webkit-box-shadow: 0 0 15px #fff;   
-    -moz-box-shadow: 0 0 15px #fff;   
-     box-shadow: 0 0 15px #fff;
+  border-style:solid;
+      border-color:#00ff2f;
+      border-width:1px;
+      color:#00ff00;
 }
 
 
@@ -614,7 +585,7 @@ blockquote {
     -moz-box-shadow: 0 0 15px #4900ff;   
      box-shadow: 0 0 15px #1600ff;
      border-radius:45px;
-     font-family:"Ã¦Â¥Â·Ã¤Â½â€œ";
+     font-family:"ÃƒÂ¦Ã‚Â¥Ã‚Â·ÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“";
     min-width: 80px; }
     .site-nav .page-link:hover,.site-nav .page-link:focus{
     border-width: 0px ;
@@ -627,7 +598,7 @@ background-color: rgba(253, 253, 255, 0.51);
     -moz-box-shadow: 0 0 15px #00ff7f;   
      box-shadow: 0 0 15px #00ff7f;
     color:#fff;
-     font-family:"Ã¦Â¥Â·Ã¤Â½â€œ";
+     font-family:"ÃƒÂ¦Ã‚Â¥Ã‚Â·ÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“";
 border-radius:45px;
     }
 
@@ -711,7 +682,7 @@ border-radius:45px;
   border: 1px solid #ef7522;
 }
 /**
- * ÃƒÂ¦Ã¢â‚¬Â°Ã¢â‚¬Â¹ÃƒÂ¦Ã…â€œÃ‚ÂºÃƒÂ¥Ã‚Â±Ã‚ÂÃƒÂ¥Ã‚Â¹Ã¢â‚¬Â¢ÃƒÂ¤Ã‚Â¸Ã…Â ÃƒÂ§Ã…Â¡Ã¢â‚¬Å¾ÃƒÂ¥Ã‚Â¯Ã‚Â¼ÃƒÂ¨Ã‹â€ Ã‚Âª
+ * ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¦Ãƒâ€¦Ã¢â‚¬Å“Ãƒâ€šÃ‚ÂºÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â±Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¹ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‚Â§Ãƒâ€¦Ã‚Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¯Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã‚Â¨Ãƒâ€¹Ã¢â‚¬Â Ãƒâ€šÃ‚Âª
  */
 
 
@@ -882,9 +853,6 @@ background-color: rgba(253, 253, 255, 0.51);
   /*border: 1px solid black;*/
   min-height: 27em; 
   height : 100%;
-       -webkit-box-shadow: 0 0 15px #66ffcc;   
-    -moz-box-shadow: 0 0 15px #66ffcc;   
-     box-shadow: 0 0 15px #66ffcc;
 }
 .profile .overlay{
   -moz-border-radius: 1px 1px 0 0; 
@@ -960,7 +928,7 @@ div.gavatar a:hover{
 
 
 /**
- * ÃƒÂ¥Ã‚Â·Ã‚Â¦ÃƒÂ¤Ã‚Â¾Ã‚Â§ÃƒÂ¦Ã‚Â Ã¢â‚¬Â¡ÃƒÂ§Ã‚Â­Ã‚Â¾ÃƒÂ¤Ã‚ÂºÃ¢â‚¬Ëœ
+ * ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â·Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â­Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“
  */
 .tag-cloud-text{
   margin-top: 1em; 
@@ -1019,9 +987,6 @@ background-color: rgba(253, 253, 255, 0.51);
   /*background: #25a598;*/
       /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
       background-color: rgba(253, 253, 255, 0.51);
-   -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
   padding: 20px 0; 
   position : absolute;
   width : 100%;
@@ -1128,7 +1093,7 @@ background-color: rgba(253, 253, 255, 0.51);
 
 
 /**
- * ÃƒÂ¦Ã‚ÂµÃ‚ÂÃƒÂ¨Ã‚Â§Ã‹â€ ÃƒÂ¥Ã¢â€žÂ¢Ã‚Â¨ÃƒÂ¦Ã‚Â»Ã…Â¡ÃƒÂ¥Ã…Â Ã‚Â¨ÃƒÂ¦Ã‚ÂÃ‚Â¡ÃƒÂ¦Ã‚Â Ã‚Â·ÃƒÂ¥Ã‚Â¼Ã‚Â
+ * ÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚ÂµÃƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â§Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‚Â¥ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã‚Â¥Ãƒâ€¦Ã‚Â Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¡ÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚Â Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¼Ãƒâ€šÃ‚Â
  */
 ::-webkit-scrollbar {
   width: 10px;
@@ -1344,9 +1309,6 @@ background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
     color: #fff;
     padding: 5px 0px;
-       -webkit-box-shadow: 0 0 15px #fff;   
-    -moz-box-shadow: 0 0 15px #fff;   
-     box-shadow: 0 0 15px #fff;
 }
 .postbox .allpost .title{
   display: inline-block;
@@ -1441,7 +1403,7 @@ div.contentAbstract img{
 .post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{
   /* border-radius: 5px; 
    /*color: white; 
-  /* font-family: "ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â½Ã‚Â¯ÃƒÂ©Ã¢â‚¬ÂºÃ¢â‚¬Â¦ÃƒÂ©Ã‚Â»Ã¢â‚¬Ëœ" , "ÃƒÂ¥Ã‚Â®Ã¢â‚¬Â¹ÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“" , "ÃƒÂ©Ã‚Â»Ã¢â‚¬ËœÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“" ,Arial; */
+  /* font-family: "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â©ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“" , "ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ" , "ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ" ,Arial; */
   font-size: 1.3em;
   letter-spacing: 1px;
   font-weight: 700;
@@ -1457,7 +1419,7 @@ div.contentAbstract img{
   padding: 5px 5px 5px 15px;
 }
 
-/* ÃƒÂ¤Ã‚Â¸Ã¢â€šÂ¬ÃƒÂ¤Ã‚ÂºÃ¢â‚¬ÂºÃƒÂ¨Ã¢â‚¬Â¡Ã‚ÂªÃƒÂ¥Ã‚Â®Ã…Â¡ÃƒÂ¤Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ§Ã…Â¡Ã¢â‚¬Å¾ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¥Ã‚Â°Ã‚ÂÃƒÂ¦Ã¢â‚¬ÂÃ‚Â¹ÃƒÂ¥Ã…Â Ã‚Â¨ */
+/* ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÆ’Ã‚Â¨ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â®Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¹ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°ÃƒÆ’Ã‚Â§Ãƒâ€¦Ã‚Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¾Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â°Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â¹ÃƒÆ’Ã‚Â¥Ãƒâ€¦Ã‚Â Ãƒâ€šÃ‚Â¨ */
 .footer-heading{
   padding-left: 2em;
   color : #fff;
@@ -1540,7 +1502,7 @@ background-color: rgba(253, 253, 255, 0.51);
 
 
 
-/*ÃƒÂ¤Ã‚Â¸Ã…Â ÃƒÂ¤Ã‚Â¸Ã¢â€šÂ¬ÃƒÂ§Ã‚Â¯Ã¢â‚¬Â¡ÃƒÂ¥Ã¢â‚¬â„¢Ã…â€™ÃƒÂ¤Ã‚Â¸Ã¢â‚¬Â¹ÃƒÂ¤Ã‚Â¸Ã¢â€šÂ¬ÃƒÂ§Ã‚Â¯Ã¢â‚¬Â¡*/ 
+/*ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚Â¥ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ãƒâ€¦Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â§Ãƒâ€šÃ‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡*/ 
 .prevandnext{
   margin-bottom: 2em;
   margin-top: 2em;
@@ -1550,7 +1512,7 @@ background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
 } 
 
-/*ÃƒÂ§Ã¢â€žÂ¢Ã‚Â¾ÃƒÂ¥Ã‚ÂºÃ‚Â¦ÃƒÂ¥Ã‹â€ Ã¢â‚¬Â ÃƒÂ¤Ã‚ÂºÃ‚Â«*/
+/*ÃƒÆ’Ã‚Â§ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¥Ãƒâ€¹Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â«*/
 .bdshare{
   margin-bottom: 3em;
   padding-bottom: 1em;
@@ -1563,7 +1525,7 @@ background-color: rgba(253, 253, 255, 0.51);
   float: left;
 }
 
-/*ÃƒÂ¦Ã¢â‚¬Â°Ã¢â‚¬Â¹ÃƒÂ¥Ã¢â‚¬Â Ã…â€™*/
+/*ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¥ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Ãƒâ€¦Ã¢â‚¬â„¢*/
 .demo { width: 360px; margin: 60px auto 10px auto }
 @media only screen and (min-width: 420px) {
 .demo { width: 800px; margin: 0px auto }
