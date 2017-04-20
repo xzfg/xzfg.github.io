@@ -1,0 +1,45 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="center sitedesc">
+    	 © 2017  |  Town on <a href="https://github.com/{{ site.author.github_username }}/{{ site.author.github_username }}.github.io"> Github</a>
+            网站运行：<span id="htmer_time" style="color: #33ccff;"></span>
+    </div>
+  </div>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {equationNumbers: {
+            autoNumber: ["AMS"], useLabelIds: true}},
+            "HTML-CSS": {linebreaks: {automatic: true}},
+            SVG: {linebreaks: {automatic: true}}
+    });
+   </script>
+
+   <script type="text/javascript" language="javascript">
+    function setTime() {
+        // 博客创建时间秒数，时间格式中，月比较特殊，是从0开始的，所以想要显示5月，得写4才行，如下
+        var create_time = Math.round(new Date(Date.UTC(2015, 4, 22, 0, 0, 0))
+                .getTime() / 1000);
+        // 当前时间秒数,增加时区的差异
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+                + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+                + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }
+    setInterval(setTime, 1000);
+</script>
+<script src="/assets/js/day.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script type="text/javascript" src="/assets/js/jquery.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.pjax.js"></script> 
+  <script type="text/javascript" src="/assets/js/prettify/prettify.js"></script>
+  <script type="text/javascript" src="/assets/js/stickUp.min.js"></script>
+  <script type="text/javascript" src="/assets/js/fancybox/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/assets/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="{{ "/assets/css/yungentie.css" | prepend: site.baseurl }}" >
+</footer>

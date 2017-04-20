@@ -1,41 +1,89 @@
-# hexo-theme-one
+![](assets/img/logo.png)
 
-[![Author](https://img.shields.io/badge/author-EYHN-blue.svg?style=flat-square)](https://delusion.coding.me)
-[![QQ](https://img.shields.io/badge/QQ-1106996185-blue.svg?style=flat-square)](http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes)
-[![Email](https://img.shields.io/badge/Emali%20me-cneyhn@gmail.com-green.svg?style=flat-square)]()
+文科中的技术宅：<http://townwang.com>，欢迎 Star 和 Fork。
+## 概览
 
-[文档](./docs/README.md)
+<!-- vim-markdown-toc GFM -->
+* [效果图](#效果图)
+* [Fork 指南](#fork-指南)
+* [贴心提示](#贴心提示)
+* [经验与思考](#经验与思考)
+* [致谢](#致谢)
 
-使用 React 制作的 material design 风格的 hexo 主题。
+<!-- vim-markdown-toc -->
+## 效果图
 
-> 本项目并不适合用来学习react，其中包含程序设计问题和反模式是本人学习用作品。
+> 首页
 
-DEMO: https://huaji8.top/
+![](assets/img/首页.png)
 
-如果喜欢的话 请点个star 让我看到你们的支持
+> 手册
 
-> 流畅 简约 优雅 ~~易用~~
+![](assets/img/手册.png)
 
-### 开发中功能表：
+> 标签
 
-| 名称          |           进展         |      详情       |
-|:------------- |:--------------:| -------------------:|
-| ~~移动版首页~~ | ~~已完成~~ |  | 
-| 中文搜索 | 开发中 | 需要后端生成关键字 或 改为正则匹配 | 
-| 404 Page | 尚未开始 |  |
-| ~~Drawer~~ | ~~已完成~~ | |
-| i18n | 暂时搁置 | 已使用react intl |
-| 自动化测试 | 暂时搁置 | 大量内容需跟进 |
-| ~~文章分类~~ | ~~已完成~~ |  |
-| ~~标签分类~~ | ~~已完成~~ |  |
-| ~~多说评论~~ | ~~已完成~~ |  |
-| ~~Disqus~~ | ~~已完成~~ | |
-| ~~分享~~ | ~~有替代方案~~ ||
-| 全局颜色 | 开发中 | 部分组件需补全 |
-| 载入加载动画 | 尚未开始 | 需设计 |
-| 时间搜索 | 尚未开始 | |
-| ~~page系统~~ | ~~已完成~~ | |
-| google translate | 勉强能用 | 格式会乱 issua: [#7](https://github.com/EYHN/hexo-theme-one/issues/7) |
-| ~~页脚~~ | ~~已完成~~ | |
+![](assets/img/标签.png)
 
-该主页深受 [hexo-theme-material](https://github.com/viosey/hexo-theme-material) 和 [hexo-theme-indigo](https://github.com/yscoder/hexo-theme-indigo) 的影响,感谢这2个主题的开发者们
+> 关于
+
+![](assets/img/关于.png)
+
+> 至于内容什么的就不放了  太长了
+## Fork 指南
+
+Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
+
+1.正确设置项目名称与分支。
+
+   按照 GitHub Pages 的规定，名称为 `username.github.io` 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。
+
+2.修改域名。
+
+   如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。
+
+3.修改配置。
+
+   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 title、subtitle、duoshuo 和 Disqus 的用户名等。
+
+   **注意：** 因为 Disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus\_username 修改成你自己的。
+
+4.删除我的文章与图片。
+
+   如下文件夹中都可以全部删除，然后添加你自己的内容。
+
+   * | _posts 文件夹中是我已发布的博客文章。
+   * | posts 文件夹中是我已发布博文的配图.
+
+
+5.修改「关于」页面。
+
+   pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息。
+
+## 贴心提示
+
+1. 预览博客效果:[点击进入](http://townwang.com)。
+
+## 经验与思考
+
+* 整体配色以护眼为主
+
+* 未来科技一般的设计,给人一种简洁的感觉
+
+* 结构明确,设计清晰,不繁琐
+
+* 写博客以内容为主,模板其实只为了好看,装装逼.
+
+* 尽量图文结合,易于理解
+
+* 没事看看大牛怎么写博客,怎么组织语言.结构.
+
+## 致谢
+
+欢迎各位大牛加以评论!fork的朋友哪里不知道怎么改的留言.
+
+
+
+
+
+

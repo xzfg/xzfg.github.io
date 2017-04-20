@@ -1,0 +1,74 @@
+
+/*搜索框*/
+
+.search {
+  margin:10px 0px;
+ width: 150px;
+  border: 0px solid #33ccff;
+  font-size: 1.0em;
+  padding: .25em .5em .3125em;
+  color: #ccffff;
+  border-radius: .20em;
+  background: transparent;
+  -webkit-transition: all .100s;
+  transition: all .100s;
+      -webkit-box-shadow: 0 0 15px #33ccff;   
+    -moz-box-shadow: 0 0 15px #33ccff;   
+     box-shadow: 0 0 15px #33ccff;
+}
+.search:focus {
+  outline: none;
+  color: #99ffff;
+  border-color: #fff;
+}
+.search.keyup {
+  color: #66ffcc;
+  border-color: #fff;
+  text-shadow: 0 0 .200em #fff;
+  box-shadow: 0 0 .25em #fff,inset 0 0 .25em #fff;
+}
+canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.search {
+  font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #33ccff;
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.search:focus::-webkit-input-placeholder {
+  opacity: .5;
+}
+
+::-moz-placeholder {
+  color: #33ccff;
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.search:focus::-moz-placeholder {
+  opacity: .5;
+}
+
+:-ms-input-placeholder {
+  color: #33ccff;
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.search:focus:-ms-input-placeholder {
+  opacity: .5;
+}

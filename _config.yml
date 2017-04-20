@@ -1,0 +1,51 @@
+encoding: UTF-8
+
+permalink: /:year/:month/:day/:title.html
+paginate: 5
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+
+# 作者信息
+author: 
+  name: 王振镇
+  email: android@townwang.com
+  link: http://townwang.com
+  weibo: http://weibo.com/zgadc
+  github: https://github.com/Townwang
+  github_username:  Townwang
+  weibo_username:  王振镇
+
+# 站点信息
+title : Town
+description: 一个以文科生的资质闯进程序员世界的青年.
+url: http://Townwang.github.io/
+rss_url: /feed.xml
+#### Common
+common:
+  GitHub: http://github.com/ 
+
+#### Links
+links:
+  胡博静: http://hubojing.me/
+  心中放歌: https://xzfg.github.io/
+
+# gavatar头像及Favicon
+gavatar : /assets/img/gavatar.png
+favicon : /assets/img/favicon.png
+
+#profile 个人信息
+
+profile_desc : Android研发工程师
+
+# 首页除了最新文章外显示分类
+cates: 
+- Essay
+
+# 中文本地化
+locals: 
+   newest : 最新文章

@@ -1,0 +1,194 @@
+/* 
+* @Author: Town
+* @Date:   2017-04-08 14:29:41
+* @Last Modified by:   Town
+* @Last Modified time: 2017-04-17 17:21:06
+*/
+/*整体样式*/
+#yun-tie-sdk-wrap{
+    font:12px/1.5 "\5B8B\4F53","Microsoft YaHei",Arial,sans-serif;
+    background-color: #25a598;
+    color:#fff;
+    text-align:left;
+    padding:0 19px;
+    border-top:0;
+    box-sizing:content-box;
+                  -webkit-box-shadow: 0 0 15px #333;   
+    -moz-box-shadow: 0 0 15px #333;   
+     box-shadow: 0 0 15px #333;
+}
+
+/*网易云跟帖评论样式增添*/
+#yun-tie-sdk-wrap .input-box .tie-textarea,#yun-tie-sdk-wrap .input-box .input-tips,#yun-tie-sdk-wrap .input-box .tie-submit-row{
+border-radius:0;
+/*background:url(../img/bg.png) repeat-x;*/
+background: #25a598;
+
+}
+#yun-tie-sdk-wrap .input-box .tie-textarea,#yun-tie-sdk-wrap .input-box .input-tips{
+    display:block;width:100%;
+    height:115px;
+    line-height:20px;
+    padding:16px 0 0 10px;
+    clear:both;
+    text-align:left;
+    box-sizing:border-box;
+}
+#yun-tie-sdk-wrap .input-box .tie-textarea{
+    padding-top:10px;
+    border-width:0;
+    color:#333;font-size:14px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    resize:none;
+    outline:0;
+    -webkit-appearance:none
+}
+#yun-tie-sdk-wrap .input-box .input-tips{
+    color:#fff !important;
+    font-size:14px;
+    line-height:14px;
+    position:absolute;
+    top:0;
+    left:0
+}
+
+/*评论按钮样式*/
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn{
+    background-color: #25a598 !important;
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn:after{
+    background-color: #25a598 !important;
+    content: "吐槽";
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn:hover{
+    background-color:#25a598 !important;
+}
+/*未跟帖样式*/
+
+#yun-tie-sdk-wrap .tie-panel-bar .tie-empty-tip a{
+    text-decoration:none;
+    color:#25a598 !important;
+    /*background: url(../img/logo.png);*/
+}
+/*即将发布消息人样式*/
+#yun-tie-sdk-wrap .input-box .tie-submit-row .user-info img:hover {
+
+box-shadow: 0 0 10px #fff;
+rgba(255, 255, 255, .6) inset 0 0 20px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0 0 10px #fff;
+rgba(255, 255, 255, .6) inset 0 0 20px rgba(255, 255, 255, 1);
+transform: rotateZ(360deg); 
+-webkit-transform: rotateZ(360deg);
+-moz-transform: rotateZ(360deg);
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .user-info img {
+width: 32px;
+height: 32px;
+border-radius: 50%;
+margin: 4px 10px 4px 8px;
+padding: 0;
+cursor: pointer;
+box-shadow: inset 0 -1px 0 #333; /*设置图像阴影效果*/
+-webkit-box-shadow: inset 0 -1px 0 #333;
+-webkit-transition: 0.4s;
+-webkit-transition: -webkit-transform 0.4s ease-out;
+transition: transform 0.4s ease-out; /*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/
+-moz-transition: -moz-transform 0.4s ease-out;
+}
+
+/*评论框内其他人样式*/
+#yun-tie-sdk-wrap .single-tie .photo img:hover {
+
+box-shadow: 0 0 10px #fff;
+rgba(255, 255, 255, .6) inset 0 0 20px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0 0 10px #fff;
+rgba(255, 255, 255, .6) inset 0 0 20px rgba(255, 255, 255, 1);
+transform: rotateZ(360deg); 
+-webkit-transform: rotateZ(360deg);
+-moz-transform: rotateZ(360deg);
+}
+
+/*跟帖框样式*/
+#yun-tie-sdk-wrap .floor-tie{
+    background-color:#25a598;
+    padding:0px;
+    border-width: 0px;
+  -webkit-box-shadow: 0 0 10px #333;   
+    -moz-box-shadow: 0 0 10px #333;   
+     box-shadow: 0 0 10px #333;
+    *clear:both;
+}
+#yun-tie-sdk-wrap .single-tie{
+    background-color: #25a598;
+    border-top:solid 1px #fff;
+    overflow:hidden;
+    padding:20px 8px 10px 10px;
+}
+#yun-tie-sdk-wrap .single-tie:hover{background-color:#25a598}
+
+
+
+
+#yun-tie-sdk-wrap .single-tie .photo img {
+width: 42px;
+height: 42px;
+border-radius: 50%;
+padding: 0;
+cursor: pointer;
+box-shadow: inset 0 -2px 0 #333; /*设置图像阴影效果*/
+-webkit-box-shadow: inset 0 -2px 0 #333;
+-webkit-transition: 0.4s;
+-webkit-transition: -webkit-transform 0.4s ease-out;
+transition: transform 0.4s ease-out; /*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/
+-moz-transition: -moz-transform 0.4s ease-out;
+}
+
+.name-nick:hover {
+    border-left: 14px solid #25a598;
+}
+.name-desp:hover {
+    border-left: 14px solid #25a598;
+}
+#yun-tie-sdk-wrap .single-tie .tie-author .name-nick{
+    cursor: pointer;
+    transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+}
+#yun-tie-sdk-wrap .single-tie .tie-author .name-desp {
+    cursor: pointer;
+    transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+}
+.tie-time:hover {
+    border-right: 14px solid #25a598;
+}
+#yun-tie-sdk-wrap .single-tie .tie-time {
+    transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+    cursor: pointer;
+}
+
+
+/*new and hot*/
+#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs{
+    font-weight:bold;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border:solid 1px #fff;
+    border-bottom:0;
+    position:relative;
+    top:1px;
+    z-index:9;
+    background-color: #25a598;
+}
+
+    #yun-tie-sdk-wrap .tie-tab-bar li.z-fcs span{
+        color: #fff;position:relative;top:-1px;}
+
+/*登录字体颜色*/
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-quick-login{color:#fff}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-quick-login a{text-decoration:none;color:#fff}
+
+/*回复字体颜色*/
+#yun-tie-sdk-wrap .single-tie .tool-bar{text-align:right;color: #fff;margin-right:18px;margin-bottom:10px;}
+
+
+
