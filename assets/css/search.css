@@ -1,20 +1,20 @@
 
-/*搜索框*/
+/*æœç´¢æ¡†*/
 
 .search {
-  margin:10px 0px;
- width: 150px;
+  margin:30px 0px;
+ width: 275px;
   border: 0px solid #33ccff;
   font-size: 1.0em;
   padding: .25em .5em .3125em;
   color: #ccffff;
-  border-radius: .20em;
+  border-radius: 1em;
   background: transparent;
   -webkit-transition: all .100s;
   transition: all .100s;
-      -webkit-box-shadow: 0 0 15px #33ccff;   
-    -moz-box-shadow: 0 0 15px #33ccff;   
-     box-shadow: 0 0 15px #33ccff;
+      -webkit-box-shadow: 0 0 15px #fff;   
+    -moz-box-shadow: 0 0 15px #fff;   
+     box-shadow: 0 0 15px #fff;
 }
 .search:focus {
   outline: none;

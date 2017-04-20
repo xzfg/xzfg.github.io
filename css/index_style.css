@@ -1,0 +1,165 @@
+@charset "utf-8";
+/*框架预览 CSS*/
+/*End*/
+
+/*主要CSS*/
+body {margin:0 auto;overflow:hidden;}  
+
+/*=============首页=============*/	
+.header{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	position:relative;
+	}
+.header canvas {
+	width:100%;height:100%/*默认全屏显示 可自己设置高度640px*/;
+	display:inline-block;vertical-align:baseline
+	position:absolute;
+	z-index:-1;
+	}
+.header .canvaszz{  /*用来解决视频右键菜单，用于视频上面的遮罩层*/
+	width:100%;
+        /*background: url(图片路径);  如果放背景图去掉opacity注释的属性 背景动画被遮罩消失*/
+	height:100%;
+	position:absolute;
+	z-index:10;
+		filter:alpha(opacity=40);  
+      /*	-moz-opacity:0.4;  
+      	-khtml-opacity: 0.4;  
+      	opacity: 0.4;*/
+
+	}
+
+.audio{ 
+/*设置音乐显示位置*/
+	width:45px;
+	position:fixed;top:65px;left:94%;
+	z-index:100;
+	filter:alpha(opacity=30);  
+      -moz-opacity:0.3;  
+      -khtml-opacity: 0.3;  
+      opacity: 0.3;
+	}
+
+
+.center{
+	width:804px;
+	height:auto;
+	position:absolute;
+	z-index:30;
+	top:150px;
+	left: 50%;
+	margin-left: -400px;
+	    text-align: center;
+	    color: #ccc;
+	    font-family: "楷体";
+
+	}
+	
+/*横线样式*/
+.line{
+    clear: both;
+    border-top-color: #fff;
+    border-top-style: solid;
+    border-top-width:1px ;
+   opacity: 0.2;
+}
+
+.blog{
+    margin-top: 130px;
+}
+/*链接鼠标未放上效果样式*/
+.blog a{
+    margin-top: 70px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 45px;
+
+}
+/*链接鼠标放上效果样式*/
+.blog a:hover{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ff0000;
+    border-style: solid;
+    border-color: #ff0000;
+    border-width: 1px;
+    border-radius: 45px;
+
+}
+/*========blog=========*/
+.logoAndtxt{
+width: 100px;
+height: 150px;
+margin:0 auto;
+}
+
+
+/*导航nav*/
+
+.nav{
+margin:10px auto;
+height: 100px;
+text-align: center;
+line-height: 100px;
+}
+.nav ul{
+
+}
+.nav ul li{ 
+list-style-type: none;
+float: left;
+margin:0 40px;
+
+
+}
+
+.nav ul li a{ 
+    text-decoration: none;
+        padding: 18px 10px;
+            color: #fff;
+/*    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;*/
+    border-radius: 45px;
+      -webkit-box-shadow: 0 0 15px #3300ff;   
+    -moz-box-shadow: 0 0 15px #3300ff;   
+     box-shadow: 0 0 15px #3300ff;
+}
+
+.nav ul li a:hover{ 
+    text-decoration: none;
+        padding: 18px 10px;
+            color: #00ff33;
+/*    border-style: solid;
+    border-color: #00ff33;
+    border-width: 1px;*/
+    border-radius: 45px;
+          -webkit-box-shadow: 0 0 15px #00ff33;   
+    -moz-box-shadow: 0 0 15px #00ff33;   
+     box-shadow: 0 0 15px #00ff33;
+}
+
+
+
+
+
+/*底部footer*/
+
+.footer{
+    margin-top: 150px;
+}
+.footer a{
+text-decoration: none;
+color: #fff;
+}
+.footer a:hover{
+text-decoration: none;
+color: green;
+}

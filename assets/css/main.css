@@ -52,7 +52,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "å¾®è½¯é›…é»‘", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ã¥Â¾Â®Ã¨Â½Â¯Ã©â€ºâ€¦Ã©Â»â€˜", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   line-height: 1.5;
   font-weight: 300;
@@ -101,9 +101,6 @@ ul, ol, dl, figure,
 }
 .navbar{
   border-radius: 0;
-      -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
 }
 .navbar-header{
   padding-top:4px;
@@ -209,7 +206,7 @@ background: #333;
 }
 
 /**
- * æ ‡ç­¾é¡µ
+ * Ã¦Â â€¡Ã§Â­Â¾Ã©Â¡Âµ
  */
 div.page-tag {
     text-align: center;
@@ -315,7 +312,7 @@ background-color: #25a598;
 
 
 /**
- * å½’æ¡£é¡µ
+ * Ã¥Â½â€™Ã¦Â¡Â£Ã©Â¡Âµ
  */
 .archive_span{
   font-size: 1em;
@@ -358,7 +355,7 @@ background-color: #25a598;
   overflow: hidden;
 }
 /**
- * æœ€è¿‘è®¿å®¢å’Œæœ€æ–°è¯„è®º
+ * Ã¦Å“â‚¬Ã¨Â¿â€˜Ã¨Â®Â¿Ã¥Â®Â¢Ã¥â€™Å’Ã¦Å“â‚¬Ã¦â€“Â°Ã¨Â¯â€žÃ¨Â®Âº
  */
  .recentcome{
 background-color: #25a598;
@@ -617,7 +614,7 @@ blockquote {
     -moz-box-shadow: 0 0 15px #4900ff;   
      box-shadow: 0 0 15px #1600ff;
      border-radius:45px;
-     font-family:"楷体";
+     font-family:"æ¥·ä½“";
     min-width: 80px; }
     .site-nav .page-link:hover,.site-nav .page-link:focus{
     border-width: 0px ;
@@ -630,7 +627,7 @@ background-color: transparent;
     -moz-box-shadow: 0 0 15px #00ff7f;   
      box-shadow: 0 0 15px #00ff7f;
     color:#00ff7f;
-     font-family:"楷体";
+     font-family:"æ¥·ä½“";
 border-radius:45px;
     }
 
@@ -714,7 +711,7 @@ background-color: #25a598;
   border: 1px solid #ef7522;
 }
 /**
- * æ‰‹æœºå±å¹•ä¸Šçš„å¯¼èˆª
+ * Ã¦â€°â€¹Ã¦Å“ÂºÃ¥Â±ÂÃ¥Â¹â€¢Ã¤Â¸Å Ã§Å¡â€žÃ¥Â¯Â¼Ã¨Ë†Âª
  */
 
 
@@ -758,7 +755,8 @@ float: left;
 .navbar-default{
     /*background-image: url(/assets/img/bg.png);*/
 /*background-color: #25a598;*/
-        background-image: linear-gradient(120deg, #155799, #159957) !important;
+background:transparent;
+/*         background-image: linear-gradient(120deg, #155799, #159957) !important; */
     border-width : 0;
 }
 
@@ -960,7 +958,7 @@ div.gavatar a:hover{
 
 
 /**
- * å·¦ä¾§æ ‡ç­¾äº‘
+ * Ã¥Â·Â¦Ã¤Â¾Â§Ã¦Â â€¡Ã§Â­Â¾Ã¤Âºâ€˜
  */
 .tag-cloud-text{
   margin-top: 1em; 
@@ -1130,7 +1128,7 @@ background-color: #25a598;
 
 
 /**
- * æµè§ˆå™¨æ»šåŠ¨æ¡æ ·å¼
+ * Ã¦ÂµÂÃ¨Â§Ë†Ã¥â„¢Â¨Ã¦Â»Å¡Ã¥Å Â¨Ã¦ÂÂ¡Ã¦Â Â·Ã¥Â¼Â
  */
 ::-webkit-scrollbar {
   width: 10px;
@@ -1138,7 +1136,7 @@ background-color: #25a598;
 }
 ::-webkit-scrollbar-button {
   width: 0;
-  height: 0;
+  /* height: 0; */
 }
 ::-webkit-scrollbar-button:start:increment,
 ::-webkit-scrollbar-button:end:decrement {
@@ -1160,10 +1158,10 @@ background-color: #25a598;
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb {
   border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
+  /* border-left: 1px solid transparent; */
 }
 ::-webkit-scrollbar-track:hover {
-  background-color: rgba(0,0,0,0.15);
+  /* background-color: rgba(0,0,0,0.15); */
 }
 ::-webkit-scrollbar-button:start {
   width: 10px;
@@ -1456,7 +1454,7 @@ div.contentAbstract img{
 .post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{
   /* border-radius: 5px; 
    /*color: white; 
-  /* font-family: "å¾®è½¯é›…é»‘" , "å®‹ä½“" , "é»‘ä½“" ,Arial; */
+  /* font-family: "Ã¥Â¾Â®Ã¨Â½Â¯Ã©â€ºâ€¦Ã©Â»â€˜" , "Ã¥Â®â€¹Ã¤Â½â€œ" , "Ã©Â»â€˜Ã¤Â½â€œ" ,Arial; */
   font-size: 1.3em;
   letter-spacing: 1px;
   font-weight: 700;
@@ -1472,7 +1470,7 @@ div.contentAbstract img{
   padding: 5px 5px 5px 15px;
 }
 
-/* ä¸€äº›è‡ªå®šä¹‰çš„å¾®å°æ”¹åŠ¨ */
+/* Ã¤Â¸â‚¬Ã¤Âºâ€ºÃ¨â€¡ÂªÃ¥Â®Å¡Ã¤Â¹â€°Ã§Å¡â€žÃ¥Â¾Â®Ã¥Â°ÂÃ¦â€Â¹Ã¥Å Â¨ */
 .footer-heading{
   padding-left: 2em;
   color : #fff;
@@ -1555,7 +1553,7 @@ background-color: #25a598;
 
 
 
-/*ä¸Šä¸€ç¯‡å’Œä¸‹ä¸€ç¯‡*/ 
+/*Ã¤Â¸Å Ã¤Â¸â‚¬Ã§Â¯â€¡Ã¥â€™Å’Ã¤Â¸â€¹Ã¤Â¸â‚¬Ã§Â¯â€¡*/ 
 .prevandnext{
   margin-bottom: 2em;
   margin-top: 2em;
@@ -1568,7 +1566,7 @@ background-color: #25a598;
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
 } 
 
-/*ç™¾åº¦åˆ†äº«*/
+/*Ã§â„¢Â¾Ã¥ÂºÂ¦Ã¥Ë†â€ Ã¤ÂºÂ«*/
 .bdshare{
   margin-bottom: 3em;
   padding-bottom: 1em;
@@ -1581,7 +1579,7 @@ background-color: #25a598;
   float: left;
 }
 
-/*æ‰‹å†Œ*/
+/*Ã¦â€°â€¹Ã¥â€ Å’*/
 .demo { width: 360px; margin: 60px auto 10px auto }
 @media only screen and (min-width: 420px) {
 .demo { width: 800px; margin: 0px auto }
