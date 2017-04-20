@@ -34,7 +34,7 @@ layout: default
 	{% if paginator.total_pages > 1 %}
 		<div class="pagination center">
 		
-			  <a class="pjaxlink" href="/index.html"><span class="x1" style="margin-left:5px;">首页</span></a>
+			  <a class="pjaxlink" href="/blog2.html"><span class="x1" style="margin-left:5px;">首页</span></a>
 			  {% if paginator.previous_page %}
 			    <a class="pjaxlink"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-right:5px;"><i class="glyphicon glyphicon-chevron-left"></i></span></a>
 			  {% endif %}
@@ -63,7 +63,7 @@ layout: default
 				    {% if page == paginator.page %}
 				      <span class="active_page x1">{{ page }}</span>
 				    {% elsif page == 1 %}
-				      <a class="pjaxlink" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1">{{ page }}</span></a>
+				      <a class="pjaxlink" href="{{ '/blog2.html' | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1">{{ page }}</span></a>
 				    {% else %}
 				      <a class="pjaxlink" href="/page{{page}}"><span class="x1">{{ page }}</span></a>
 				    {% endif %}
