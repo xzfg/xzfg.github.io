@@ -1,81 +1,41 @@
-# Material 原质
+# hexo-theme-one
 
-[Material Theme](https://material.viosey.com)
+[![Author](https://img.shields.io/badge/author-EYHN-blue.svg?style=flat-square)](https://delusion.coding.me)
+[![QQ](https://img.shields.io/badge/QQ-1106996185-blue.svg?style=flat-square)](http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes)
+[![Email](https://img.shields.io/badge/Emali%20me-cneyhn@gmail.com-green.svg?style=flat-square)]()
 
->Nature, Source
+[文档](./docs/README.md)
 
->原之质，物之渊
+使用 React 制作的 material design 风格的 hexo 主题。
 
-## Contents 目录
+> 本项目并不适合用来学习react，其中包含程序设计问题和反模式是本人学习用作品。
 
-- [General 概括](#general-概括)
-- [Demo 演示](#demo-演示)
-- [Quick start 快速开始](#quick-start-快速开始)
-- [Docs 文档](#docs-文档)
-- [Contributing 贡献](#contributing-贡献)
-- [License 许可证](#license-许可证)
-- [Support 支持](#support-支持)
-- [Render 渲染](#render-渲染)
-- [Changelog 开发日志](https://github.com/viosey/hexo-theme-material/releases)
+DEMO: https://huaji8.top/
 
-## General 概括
+如果喜欢的话 请点个star 让我看到你们的支持
 
-[![Author](https://img.shields.io/badge/author-Viosey-blue.svg?style=flat-square)](https://viosey.com)
-[![QQ Group](https://img.shields.io/badge/QQ%20%E7%BE%A4-566308505-blue.svg?style=flat-square)](http://jq.qq.com/?_wv=1027&k=40Vdy24)
-[![Version](https://img.shields.io/badge/version-1.3.4-green.svg?style=flat-square)]()
-[![Hexo](https://img.shields.io/badge/hexo-3.0+-green.svg?style=flat-square)](https://hexo.io)
-[![Build Status](https://img.shields.io/travis/viosey/hexo-theme-material.svg?style=flat-square)](https://travis-ci.org/viosey/hexo-theme-material)
+> 流畅 简约 优雅 ~~易用~~
 
-## Demo 演示
+### 开发中功能表：
 
-[Viosey's Blog](https://blog.viosey.com)
+| 名称          |           进展         |      详情       |
+|:------------- |:--------------:| -------------------:|
+| ~~移动版首页~~ | ~~已完成~~ |  | 
+| 中文搜索 | 开发中 | 需要后端生成关键字 或 改为正则匹配 | 
+| 404 Page | 尚未开始 |  |
+| ~~Drawer~~ | ~~已完成~~ | |
+| i18n | 暂时搁置 | 已使用react intl |
+| 自动化测试 | 暂时搁置 | 大量内容需跟进 |
+| ~~文章分类~~ | ~~已完成~~ |  |
+| ~~标签分类~~ | ~~已完成~~ |  |
+| ~~多说评论~~ | ~~已完成~~ |  |
+| ~~Disqus~~ | ~~已完成~~ | |
+| ~~分享~~ | ~~有替代方案~~ ||
+| 全局颜色 | 开发中 | 部分组件需补全 |
+| 载入加载动画 | 尚未开始 | 需设计 |
+| 时间搜索 | 尚未开始 | |
+| ~~page系统~~ | ~~已完成~~ | |
+| google translate | 勉强能用 | 格式会乱 issua: [#7](https://github.com/EYHN/hexo-theme-one/issues/7) |
+| ~~页脚~~ | ~~已完成~~ | |
 
-## Quick start 快速开始
-
-[Install Material](https://material.viosey.com/en/start/#install-material)
-
-[安装 Material](https://material.viosey.com/start/#install-material)
-
-
-## Docs 文档
-
-[Material Theme Docs](https://material.viosey.com/en/)
-
-[Material 主题文档](https://material.viosey.com)
-
->[Docs Markdown Files](https://github.com/viosey/material-theme-docs)
-
-
-## Contributing 贡献
-
-All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
-
-Before you start your contributing, please read the [Contributing Rules Wiki](https://github.com/viosey/hexo-theme-material/wiki) first.
-
-欢迎各种形式的贡献，包括但不限于优化，添加功能，文档 & 代码的改进，问题和 bugs 的报告。期待您的 `Pull Request`。
-
-在参与贡献之前，请阅读[项目贡献 Wiki](https://github.com/viosey/hexo-theme-material/wiki)，了解如何为 Material 主题贡献。
-
-
-## License 许可证
-
-[![license](https://img.shields.io/github/license/viosey/hexo-theme-material.svg?style=flat-square)](https://github.com/viosey/hexo-theme-material/blob/master/LICENSE)
-
-Open sourced under the GPL v3.0 license.
-
-根据 GPL V3.0 许可证开源。
-
-## Support 支持
-![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=V1VkWmJMRjJqcHBjN1BIVFRlNzExM05XUk5hemcydEpZTHRBdGd5V244ST0tLTlvNklDT1NuVXFDaTh0RDBnQ3RCdXc9PQ==--c986c45d7c10a3264f46b414944d6393ba74ea22%)
-
-Proudly using BrowserStack.
-
-[![](https://qiniu.viosey.com/img/browserstack_logo.png)](https://www.browserstack.com/)
-
->**BrowserStack** is a cloud-based cross-browser testing tool that enables developers to test their websites across various browsers on different operating systems and mobile devices, without requiring users to install virtual machines, devices or emulators.
-
-## Render 渲染
-
-![](https://qiniu.viosey.com/img/Material-Phone-Render.png)
-
-![](https://qiniu.viosey.com/img/Materia-overview-tiny.png)
+该主页深受 [hexo-theme-material](https://github.com/viosey/hexo-theme-material) 和 [hexo-theme-indigo](https://github.com/yscoder/hexo-theme-indigo) 的影响,感谢这2个主题的开发者们
