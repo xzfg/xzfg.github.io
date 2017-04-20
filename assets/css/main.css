@@ -965,9 +965,6 @@ div.gavatar a:hover{
 .tag-cloud-text{
   margin-top: 1em; 
   letter-spacing: 5px;
-       -webkit-box-shadow: 0 0 15px #fff;   
-    -moz-box-shadow: 0 0 15px #fff;   
-     box-shadow: 0 0 15px #fff;
 } 
 .tag-cloud-text p{
   margin:0 auto;
@@ -1230,9 +1227,6 @@ background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   padding: 1em 3em; 
   border-radius: 1px;
-         -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
 }
 
 @media (max-width: 992px) {
@@ -1280,9 +1274,6 @@ background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   border-top: 1px solid #fff;
   position: relative;
-       -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
 }
 .postbox .post-format-icon{
   display: block;
@@ -1342,18 +1333,12 @@ background-color: rgba(253, 253, 255, 0.51);
     font-size: 1.2em;
     text-align: center;
     color: #fff;
-    -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
 
 }
 .postbox a.readmore:visited {
    background-color: rgba(253, 253, 255, 0.51);
     color: #fff;
     padding: 5px 0px;
-       -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
 }
 .postbox a.readmore:hover {
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
@@ -1562,9 +1547,6 @@ background-color: rgba(253, 253, 255, 0.51);
   border-radius: 2px;
   padding: 1em 1em;
  background-color: rgba(253, 253, 255, 0.51);
-           -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
 } 
 
@@ -1587,9 +1569,6 @@ background-color: rgba(253, 253, 255, 0.51);
 .demo { width: 800px; margin: 0px auto }
 }
 .box { float: left; width: 360px; height: 260px 
-         -webkit-box-shadow: 0 0 15px #333;   
-    -moz-box-shadow: 0 0 15px #333;   
-     box-shadow: 0 0 15px #333;
      margin:20px;
 }
 .clear { clear: both }
