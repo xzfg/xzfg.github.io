@@ -10,11 +10,11 @@ permalink: /pages/about.html
 	<hr>
 	<br>
 	<p>
-	没事记记写写,只怕自己忘记.随时充电,以备不时之需!
+	记录自己的一些事情以备往后回味
 	</p>
 	<br>
 	
-	<h3><i class="fa fa-laptop"></i>&nbsp;IT技能</h3>
+	<h3><i class="fa fa-laptop"></i>&nbsp;偶的性格</h3>
 	<hr>
 	<br>
     <div class="skills">
@@ -32,15 +32,18 @@ permalink: /pages/about.html
 	<table class="table table-striped">
 		<tr>
 			<td>姓  名：</td>    
-			<td>王振镇 </td>
+			<td>王明明 </td>
+		</tr><tr>
+			<td>别  名：</td>    
+			<td>心中放歌   心中放歌的围脖 </td>
 		</tr>
 		<tr>
 			<td>年龄：</td>    
-			<td>年方三八</td>
+			<td>24</td>
 		</tr>
 		<tr>
 			<td>婚否：</td>    
-			<td>传说中的单身狗</td>
+			<td>单身狗</td>
 		</tr>
 	</table>
 
@@ -53,7 +56,14 @@ permalink: /pages/about.html
 				Email：
 			</td>  
 			<td>
-				android@townwang.com		
+				1091172868@qq.com		
+			</td>
+		</tr><tr>
+			<td>
+				微信公众号：
+			</td>  
+			<td>
+				m心中放歌m		
 			</td>
 		</tr>
 
@@ -62,16 +72,16 @@ permalink: /pages/about.html
 				github：
 			</td>  
 			<td>
-				<a href="{{ site.author.github }}" target="_blank">github.com/Townwang</a>
+				<a href="{{ site.author.github }}" target="_blank">github.com/xzfg</a>
 			</td>  
 		</tr>
 
 		<tr>
 			<td>
-				微博：
+				唱吧：
 			</td> 
 			<td>
-				<a href="{{ site.author.weibo }}" target="_blank">weibo.com/zgadc</a>
+				<a href="{{ site.author.weibo }}" target="_blank">w10929</a>
 			</td> 
 		</tr>
 	</table>
@@ -82,7 +92,7 @@ permalink: /pages/about.html
 	<hr>
 	<br>
 	<p>
-	一只码农，比较宅,经常逛论坛.喜欢技术,立志成为一名大牛.
+	一个标准的处女座型男，没事儿的时候总爱吼那么几嗓子..........
 	</p>
 	<br>
 
@@ -90,7 +100,7 @@ permalink: /pages/about.html
 	<hr>
 	<br>
 	<p>
-	大牛这么多,我想多超越几个.
+	让我的孩子成为富二代
 	</p>
 	<br>
 	<br> 

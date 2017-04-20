@@ -12,18 +12,18 @@ highlighter: rouge
 
 # 作者信息
 author: 
-  name: 王振镇
-  email: android@townwang.com
-  link: http://townwang.com
-  weibo: http://weibo.com/zgadc
-  github: https://github.com/Townwang
-  github_username:  Townwang
-  weibo_username:  王振镇
+  name: 王明明
+  email: 1091172868@qq.com
+  link: xzfg.github.io
+  weibo: http://weibo.com
+  github: https://github.com/xzfg
+  github_username:  王明明
+  weibo_username:  心中放歌的围脖
 
 # 站点信息
 title : Town
-description: 一个以文科生的资质闯进程序员世界的青年.
-url: http://Townwang.github.io/
+description: 做成功的准备就是准备成功.
+url: http://xzfg.github.io/
 rss_url: /feed.xml
 #### Common
 common:
@@ -31,8 +31,7 @@ common:
 
 #### Links
 links:
-  胡博静: http://hubojing.me/
-  心中放歌: https://xzfg.github.io/
+  王明明: xzfg.github.io
 
 # gavatar头像及Favicon
 gavatar : /assets/img/gavatar.png
@@ -40,7 +39,7 @@ favicon : /assets/img/favicon.png
 
 #profile 个人信息
 
-profile_desc : Android研发工程师
+profile_desc : 心中放歌
 
 # 首页除了最新文章外显示分类
 cates: 
