@@ -5,7 +5,7 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
-  background-color : rgba(0,0,0,0.2)
+background-color: rgba(253, 253, 255, 0.51);
   padding: 0; }
 /**
  *  BootStrap basic elements
@@ -19,7 +19,7 @@ dl, dd, ol, ul, figure {
 }
 
 .badge{
-        background-image: linear-gradient(120deg, #155799, #159957) !important;
+        background-color: rgba(253, 253, 255, 0.51);
 }
 
 /**
@@ -32,7 +32,7 @@ dl, dd, ol, ul, figure {
     min-height: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(120deg, #155799, #159957) !important;
+    background-color: rgba(253, 253, 255, 0.51);
     z-index: 9999;
 }
 
@@ -109,7 +109,7 @@ ul, ol, dl, figure,
 .index-post-tag a{
     font-size: 1em;
     line-height: 1em;
-    background:transparent;
+    background-color: rgba(253, 253, 255, 0.51);
           /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
     display: inline-block;
     font-weight: normal;
@@ -131,13 +131,13 @@ ul, ol, dl, figure,
   top: 0;
   left: -18px;
   border: 9px solid transparent;
-    background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
 }
 .index-post-tag a:after{
   content: " ";
   width: 4px;
   height: 4px;
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -164,7 +164,7 @@ ul, ol, dl, figure,
 
 .pagination .x1{
     padding: 0px 10px ;
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
     margin-left: 5px;
     margin-right: 5px;
     color:#fff;
@@ -175,13 +175,13 @@ ul, ol, dl, figure,
      box-shadow: 0 0 15px #33ccff;
 }
 .pagination .x1:visited{
-    background: #ff0000;
+  background-color: rgba(253, 253, 255, 0.51);
         -webkit-border-radius: 45px;
     border-radius: 45px;
 }
 
 .active_page{
-background: #333;
+background-color: rgba(253, 253, 255, 0.51);
   font-size : 1.4em;
   
 }
@@ -288,7 +288,7 @@ li.article a {
 li.article a:hover,li.article a:focus{
   color: #fff;
       box-shadow: 3px 0 #3B95B8 inset;
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
 
   -webkit-box-shadow: 0 0 10px #333;   
     -moz-box-shadow: 0 0 10px #333;   
@@ -335,7 +335,7 @@ li.article a:hover,li.article a:focus{
 .home{
   margin: 0 0 2em 0;
   padding: 2em 3em;
-  background:transparent;
+  background-color: rgba(253, 253, 255, 0.51);
   /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   min-height: 50em;
   border-radius: 4px;
@@ -358,7 +358,7 @@ li.article a:hover,li.article a:focus{
  * ÃƒÂ¦Ã…â€œÃ¢â€šÂ¬ÃƒÂ¨Ã‚Â¿Ã¢â‚¬ËœÃƒÂ¨Ã‚Â®Ã‚Â¿ÃƒÂ¥Ã‚Â®Ã‚Â¢ÃƒÂ¥Ã¢â‚¬â„¢Ã…â€™ÃƒÂ¦Ã…â€œÃ¢â€šÂ¬ÃƒÂ¦Ã¢â‚¬â€œÃ‚Â°ÃƒÂ¨Ã‚Â¯Ã¢â‚¬Å¾ÃƒÂ¨Ã‚Â®Ã‚Âº
  */
  .recentcome{
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   padding: 1em 2em;
   margin-top: 1em;
@@ -366,7 +366,7 @@ li.article a:hover,li.article a:focus{
  
 .comment{
   margin-top: 1em;
-   background:transparent;
+ background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   padding: 1em 2em;
 }
@@ -376,7 +376,7 @@ li.article a:hover,li.article a:focus{
 }
 .recentuse{
   margin-top: 1em;
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   padding: 1em 2em;
   -moz-border-radius: 1px;
@@ -424,7 +424,7 @@ text-align: center;
 
 .friendlink{
   margin-top: 1em;
-   background:transparent;
+  background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   padding: 1em 2em;
   -moz-border-radius: 1px;
@@ -621,7 +621,7 @@ blockquote {
            padding:13px 0;
     /*border-color: #25a598;*/
 /*background: url(/assets/img/bg.png)100%100% no-repeat;*/
-background: transparent;
+background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
                -webkit-box-shadow: 0 0 15px #00ff7f;   
     -moz-box-shadow: 0 0 15px #00ff7f;   
@@ -637,7 +637,7 @@ border-radius:45px;
     .site-nav {
       position: absolute;
       top: 9px;
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
       border: 1px solid #25a598;
       border-radius: 0px;
@@ -737,7 +737,7 @@ float: left;
 
 /*background-color: #25a598;*/
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
-           background:transparent;
+        background-color: rgba(253, 253, 255, 0.51);
       color:#fff;}
  
 @media (min-width: 768px){
@@ -756,7 +756,7 @@ float: left;
 .navbar-default{
     /*background-image: url(/assets/img/bg.png);*/
 /*background-color: #25a598;*/
-background:transparent;
+background-color: rgba(253, 253, 255, 0.51);
 /*         background-image: linear-gradient(120deg, #155799, #159957) !important; */
     border-width : 0;
 }
@@ -874,7 +874,7 @@ background:transparent;
  
 .aside1 .profile{
   position: relative;
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   margin: 0 auto;
   padding: 2em 2em 0 2em;
@@ -893,7 +893,7 @@ background:transparent;
   /*background-image: url(/assets/img/bg.png);*/
             /*background: #25a598;*/
                 /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
-                   background:transparent;
+                   background-color: rgba(253, 253, 255, 0.51);
   opacity: 0.7;
   margin: -2em -2em -4em -2em;
 }
@@ -903,7 +903,7 @@ a.profile_gavatar{
   height: 8em;
   margin: 0 auto;
   overflow: hidden;
-   background:transparent;
+   background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   border: 0.29em solid (120deg, #155799, #159957);
   -webkit-border-radius: 99em;
@@ -975,7 +975,7 @@ div.gavatar a:hover{
   padding:3px;
   opacity: 0.8;
   border-radius: 7px 7px 0 0;
-     background:transparent;
+    background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   border-bottom: 0px solid;
 }
@@ -996,14 +996,14 @@ div.gavatar a:hover{
 }
  
 .tag-cloud{
-background:transparent;
+background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   -moz-border-radius:7px 7px 0 0;
   -webkit-border-radius: 7px 7px 0 0;
 }
 .tag-cloud .page-tag{
   min-height: 12.5em;
-background:transparent;
+background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   padding: 0.5em;
   padding-left: 1.5em;
@@ -1021,7 +1021,7 @@ background:transparent;
   /*background-image: url(/assets/img/bg.png);*/
   /*background: #25a598;*/
       /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
-      background:transparent;
+      background-color: rgba(253, 253, 255, 0.51);
    -webkit-box-shadow: 0 0 15px #333;   
     -moz-box-shadow: 0 0 15px #333;   
      box-shadow: 0 0 15px #333;
@@ -1151,12 +1151,12 @@ background:transparent;
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 8px;
   border-radius: 8px;
-  background:transparent; 
+  background-color: rgba(253, 253, 255, 0.51);
 }
 ::-webkit-scrollbar-thumb:hover {
   -webkit-border-radius: 8px;
   border-radius: 8px;
-  background:transparent; 
+background-color: rgba(253, 253, 255, 0.51);
 }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb {
@@ -1226,7 +1226,7 @@ background:transparent;
 
 
 .post{
-background:transparent;
+background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   padding: 1em 3em; 
   border-radius: 1px;
@@ -1276,7 +1276,7 @@ background:transparent;
     box-sizing: border-box;
   padding: 40px 50px 60px 50px;
     margin-bottom: 50px;
-background:transparent;
+background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   border-top: 1px solid #fff;
   position: relative;
@@ -1287,7 +1287,7 @@ background:transparent;
 .postbox .post-format-icon{
   display: block;
   line-height: 26px;
-background: transparent;
+background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
   width: 55px;
   height: 55px;
@@ -1348,7 +1348,7 @@ background: transparent;
 
 }
 .postbox a.readmore:visited {
-    background: transparent;
+   background-color: rgba(253, 253, 255, 0.51);
     color: #fff;
     padding: 5px 0px;
        -webkit-box-shadow: 0 0 15px #333;   
@@ -1502,7 +1502,7 @@ div.contentAbstract img{
     display: block;
     margin-bottom: 15px;
     width: 100%;
-background:transparent;
+background-color: rgba(253, 253, 255, 0.51);
         /*background-image: linear-gradient(120deg, #155799, #159957) !important;*/
     height: 22px;
   border-radius: 5px;
@@ -1524,19 +1524,19 @@ background:transparent;
     left: 0;
     font-size: 1.2em;
     color: #fff;
-  background:transparent; 
+  background-color: rgba(253, 253, 255, 0.51); 
     text-transform: capitalize;
 }
 .skillbar-title span {
     display: block;
-    background: rgba(0, 0, 0, 0.1);
+    background-color: rgba(253, 253, 255, 0.51);
     padding: 0 20px;
     height: 22px;
     line-height: 22px;
 }
 .skillbar-bar {
   border-radius: 5px;
-    background: rgba(59, 89, 152, 0.8);
+    background-color: rgba(253, 253, 255, 0.51);
     height: 22px;
     width: 0;
 }
@@ -1561,7 +1561,7 @@ background:transparent;
   margin-top: 2em;
   border-radius: 2px;
   padding: 1em 1em;
-  background:transparent;
+ background-color: rgba(253, 253, 255, 0.51);
            -webkit-box-shadow: 0 0 15px #333;   
     -moz-box-shadow: 0 0 15px #333;   
      box-shadow: 0 0 15px #333;
