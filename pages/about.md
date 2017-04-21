@@ -14,8 +14,8 @@ permalink: /pages/about.html
 	</p>
 	<br>
 	
-	<h3><i class="fa fa-laptop"></i>&nbsp;偶的性格</h3>
-	<hr>
+	<!-- <h3><i class="fa fa-laptop"></i>&nbsp;偶的性格</h3> -->
+	<!-- <hr>
 	<br>
    <div class="skills">
    	<div id="main" style="height:400px"></div>
@@ -23,7 +23,7 @@ permalink: /pages/about.html
 
 
    
-    </div>
+    </div> -->
 
 	
 	<br>
