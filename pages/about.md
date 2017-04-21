@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 关于心中放歌
+title: 关于
 permalink: /pages/about.html
 ---
 

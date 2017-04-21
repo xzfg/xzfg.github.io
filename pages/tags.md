@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 标签
+title: 博文
 permalink: /pages/tags.html
 ---
 

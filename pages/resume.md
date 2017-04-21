@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 心中放歌的相册
+title: Aibum
 keywords: 心中放歌的相册
 permalink: /pages/resume.html
 ---
