@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 奋斗(深圳之行)
+title: 深圳的这段日子(深圳之行)
 category: 正能量
 tags:  经历篇
-description: 坚持就好
+description: 深圳的那段日子
 ---
 
 ## 致那些奋斗在梦想道路上的热血青年们
