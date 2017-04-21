@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Town的Android简历
-keywords: Town的Android简历
+title: 心中放歌的相册
+keywords: 心中放歌的相册
 permalink: /pages/resume.html
 ---
 

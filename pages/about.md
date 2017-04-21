@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 关于
+title: 关于心中放歌
 permalink: /pages/about.html
 ---
 
@@ -10,20 +10,20 @@ permalink: /pages/about.html
 	<hr>
 	<br>
 	<p>
-	记录自己的一些事情以备往后回味
+	记录和分享自己的一些事情以备往后回味
 	</p>
 	<br>
 	
 	<h3><i class="fa fa-laptop"></i>&nbsp;偶的性格</h3>
 	<hr>
 	<br>
-    <div class="skills">
+   <div class="skills">
    	<div id="main" style="height:400px"></div>
 
 
 
    
-    </div>	
+    </div>
 
 	
 	<br>
@@ -32,10 +32,10 @@ permalink: /pages/about.html
 	<table class="table table-striped">
 		<tr>
 			<td>姓  名：</td>    
-			<td>王明明 </td>
+			<td>王小明 </td>
 		</tr><tr>
 			<td>别  名：</td>    
-			<td>心中放歌   心中放歌的围脖 </td>
+			<td>心中放歌&nbsp;&nbsp;&nbsp;心中放歌的围脖 </td>
 		</tr>
 		<tr>
 			<td>年龄：</td>    
@@ -44,6 +44,9 @@ permalink: /pages/about.html
 		<tr>
 			<td>婚否：</td>    
 			<td>单身狗</td>
+		</tr><tr>
+			<td>爱好：</td>    
+			<td>旅游&nbsp;&nbsp;&nbsp;音乐&nbsp;&nbsp;&nbsp;书法&nbsp;&nbsp;&nbsp;摄影</td>
 		</tr>
 	</table>
 
@@ -60,10 +63,10 @@ permalink: /pages/about.html
 			</td>
 		</tr><tr>
 			<td>
-				微信公众号：
+				唱吧：
 			</td>  
 			<td>
-				m心中放歌m		
+				w10929	
 			</td>
 		</tr>
 
@@ -78,11 +81,18 @@ permalink: /pages/about.html
 
 		<tr>
 			<td>
-				唱吧：
+				微信公众号：
 			</td> 
 			<td>
-				<a href="{{ site.author.weibo }}" target="_blank">w10929</a>
+				<a href="{{ site.author.weibo }}" target="_blank">m心中放歌m</a>
 			</td> 
+		</tr><tr>
+			<td>
+				故乡：
+			</td>  
+			<td>
+				中国-陕西省-咸阳市-兴平市-南市镇	
+			</td>
 		</tr>
 	</table>
 
